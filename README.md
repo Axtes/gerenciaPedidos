@@ -38,13 +38,19 @@ Demonstrar o uso prático de estruturas de dados para gerenciar um sistema simpl
 
 ### 📁 Estrutura do Projeto
 
-src/
-├── br.com.unijorge.projetos.estruturadedados.av3
+├── br/
+│ └── com/
+│ └── unijorge/
+│ └── projetos/
+│ └── estruturadedados/
+│ └── av3/
+│ ├── controller/
+│ │ └── grcmPedidos.java // Lógica de gerenciamento dos pedidos
 │ ├── model/
-│ │ └── Pedido.java
-│ └── controller/
-│ └── grcmPedidos.java
-
+│ │ └── Pedido.java // Classe representando um pedido
+│ └── view/
+│ └── Principal.java // Classe principal que executa o menu do sistema
+├── pedidos.json // Arquivo gerado/consumido para importação/exportação de dados
 ---
 
 ### 📌 Observações
