@@ -24,7 +24,7 @@ Este projeto foi desenvolvido em **Java** como parte da disciplina de **Estrutur
 
 ## 💻 Tecnologias Utilizadas
 
-- Java 17+ (ou compatível)
+- Java 24+
 - Biblioteca [Gson](https://github.com/google/gson) para manipulação de arquivos JSON
 - Execução via terminal (modo texto)
 
