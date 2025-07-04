@@ -36,30 +36,26 @@ Demonstrar o uso prático de estruturas de dados para gerenciar um sistema simpl
 
 ---
 
-### 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
-├── br/
-│ └── com/
-│ └── unijorge/
-│ └── projetos/
-│ └── estruturadedados/
-│ └── av3/
-│ ├── controller/
-│ │ └── grcmPedidos.java // Lógica de gerenciamento dos pedidos
+├── br/com/unijorge/projetos/estruturadedados/av3/
 │ ├── model/
-│ │ └── Pedido.java // Classe representando um pedido
-│ └── view/
+│ │ └── Pedido.java
+│ └── controller/
+│ └── grcmPedidos.java
+│ └── viewer/
 │ └── Principal.java // Classe principal que executa o menu do sistema
 ├── pedidos.json // Arquivo gerado/consumido para importação/exportação de dados
+
 ---
 
 ### 📌 Observações
 
 - Todos os dados manipulados são mantidos em memória durante a execução e podem ser exportados/importados via arquivos JSON.
-- Projeto focado em lógica e estrutura de dados — interface gráfica será desenvolvida em versões futuras (JavaFX/Swing).
+- Projeto focado em lógica e estrutura de dados — interface gráfica será desenvolvida em versões futuras (JavaFX).
 
 ---
 
-### 👨‍💻 Autor
+### 👨‍💻 Autores
 
 Desenvolvido por ANTÔNIO CARLOS, DAVID SOBRAL, MAYA MOTA, MELVIN ARAÚJO, PAULO MATEUS  — estudantes de Ciência da Computação | Unijorge  
